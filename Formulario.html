@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agenda</title>
+    <link rel="stylesheet" href="assets/css/lib/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/site/site.css" />
+</head>
+<body>
+    <header></header>
+    <main class="container-fluid">
+        <div id="content-container">
+            <div class="">
+                <div class="col-9 col-sm-12 col-md-8 offset-md-2 mt-3">
+                    <div class="card">
+                        <div class="card-header bg-primary text-light text-center">
+                            <h5>Datos personales</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name1:</label>
+                                <input type="text" class="form-control" id="name" placeholder="Ingrese su nombre" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="provincia" class="form-label">Provincia2:</label>
+                                <input type="text" class="form-control" id="provincia" placeholder="Ingrese su provincia" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="ciudad" class="form-label">City:</label>
+                                <input type="text" class="form-control" id="ciudad" placeholder="Ingrese su ciudad" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="sector" class="form-label">Sector:</label>
+                                <input type="text" class="form-control" id="sector" placeholder="Ingrese su sector" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="calle" class="form-label">Calle:</label>
+                                <input type="text" class="form-control" id="calle" placeholder="Ingrese su calle" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="CarreraSelect" class="form-label">Carrers:</label>
+                                <select class="form-select" id="CarreraSelect">
+                                    <option value="" disabled selected>Seleccione una de las carreras</option>
+                                    <option value="Software">Software</option>
+                                    <option value="Ciberseguridad">Ciberseguridad</option>
+                                    <option value="Multimedia">Multimedia</option>
+                                </select>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <button type="button" class="btn btn-outline-primary" id="Enviar">Enviar</button>
+                                <button type="button" id="clearbutton" class="btn btn-outline-warning">Limpiar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
