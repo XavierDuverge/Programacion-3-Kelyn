@@ -1,0 +1,147 @@
+    <div id="content" style="display: none;">
+            <div class="row justify-content-center">
+                <div class="col-md-6 card mt-5">
+                    <div class="card">
+                        <div class="card-header bg-primary text-light text-center">
+                            <h5>Sección de materias</h5>
+                        </div>
+                        <div class="card-body " style="display: flex; justify-content: center; gap: 10px;">
+                            <button onclick="goBack()" class="btn-text" id="miBoton">Datos personales</button>
+                            <button onclick="irAConfirmacion()" class="btn-text" id="miBoton2">Confirmacion</button>
+                        </div>
+                        
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <!-- Materia 1: Fundamentos de la programación -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Fundamentos de la programación
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="fundamentos" id="radio1" value="opcion1">
+                                            <label class="form-check-label" for="radio1">Ma 13:00 - 18:00</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="fundamentos" id="radio2" value="opcion2">
+                                            <label class="form-check-label" for="radio2">Lu 7:00 - 12:00</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="fundamentos" id="radio3" value="opcion3">
+                                            <label class="form-check-label" for="radio3">Mi 20:00 - 22:00</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <!-- Materia 2: Programación 1 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        Programación 1
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="programacion1" id="radio4" value="opcion4">
+                                            <label class="form-check-label" for="radio4">Vi 14:00 - 16:00</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="programacion1" id="radio5" value="opcion5">
+                                            <label class="form-check-label" for="radio5">Mi 14:00 - 18:00</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="programacion1" id="radio6" value="opcion6">
+                                            <label class="form-check-label" for="radio6">Ju 8:00 - 12:00</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <!-- Materia 3: Introducción a Bases de Datos -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                        Introducción a Bases de Datos
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="basesdedatos" id="radio7" value="opcion7">
+                                            <label class="form-check-label" for="radio7">Ma 10:00 - 12:00</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="basesdedatos" id="radio8" value="opcion8">
+                                            <label class="form-check-label" for="radio8">Vi 16:00 - 18:00</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="basesdedatos" id="radio9" value="opcion9">
+                                            <label class="form-check-label" for="radio9">Mi 13:00 - 18:00</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <!-- Materia 4: Programación 2 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                        Programación 2
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="programacion2" id="radio10" value="opcion10">
+                                            <label class="form-check-label" for="radio10">Ma 10:00 - 12:00</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="programacion2" id="radio11" value="opcion11">
+                                            <label class="form-check-label" for="radio11">Vi 16:00 - 18:00</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="programacion2" id="radio12" value="opcion12">
+                                            <label class="form-check-label" for="radio12">Mi 13:00 - 18:00</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <!-- Materia 5: Programación 3 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                        Programación 3
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="programacion3" id="radio13" value="opcion13">
+                                            <label class="form-check-label" for="radio13">Ma 10:00 - 12:00</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="programacion3" id="radio14" value="opcion14">
+                                            <label class="form-check-label" for="radio14">Vi 16:00 - 18:00</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="programacion3" id="radio15" value="opcion15">
+                                            <label class="form-check-label" for="radio15">Mi 13:00 - 18:00</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div style="text-align: right;">
+                                <button type="button" id="Aceptar" class="btn btn-outline-primary">Aceptar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
