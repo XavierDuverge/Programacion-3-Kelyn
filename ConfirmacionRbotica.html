@@ -1,0 +1,37 @@
+   <!Robotica Formulario de confirmación -->
+<div class="container mt-5" id="form-confirmacion2" style="display: none;">
+    <div class="card">
+        <div class="card-header bg-primary text-light text-center">
+            <h4>Confirmación</h4>
+        </div>
+        <div class="card-body">
+            <div class="class="card-body  style="display: flex; justify-content: center; gap: 10px;">
+                <button onclick="goBack()" class="btn-text" id="btn-datos-personales">Datos personales</button>
+                <button onclick="irAConfirmacion3()" class="btn-text" id="miBoton4">Confirmacion</button>
+                <button onclick="VOlver3()" class="btn-text" id="miBoton"2>Seccion de materias</button>
+                
+                
+            </div>
+            <h5>Datos básicos</h5>
+            <ul id="datos-personales2" class="list-group">
+                <!-- Aquí se mostrarán los datos personales -->
+            </ul>
+
+            <h5 class="mt-4">Horarios seleccionados</h5>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Asignatura</th>
+                        <th>Dia</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+                <tbody id="tabla-horarios2">
+                    <!-- Aquí se mostrarán los horarios -->
+                </tbody>
+            </table>
+
+            <button id="finalizar1" class="btn btn-primary float-end">Finalizar</button>
+        </div>
+    </div>
+</div>
